@@ -1,0 +1,179 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+}
+.footer-logo p{
+    color: #383838;
+    font-size: 6vh;
+    font-weight: 700;
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap: 5vh;
+    color: #252525;
+    font-size: 3vh;
+}
+.footer-links a{
+    text-decoration: none;
+    color: grey;
+}
+.footer-links li{
+    cursor: pointer;
+}
+.footer-social-icon{
+    display: flex;
+    gap: 3vh;
+}
+.footer-icons-container{
+    padding: 1.5vh;
+    padding-bottom: 6px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+    width: 100%;
+    margin-bottom: 3vw;
+    color: #1a1a1a;
+    font-size: 3vh;
+}
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10vh;
+    height: 0.5vh;
+    background: #c7c7c7;
+}
+.footerlogo{
+    width: 13vh;
+    height: 7vw;
+}
+
+@media screen and (max-width: 763px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10vh;
+        position: relative;
+        left: 10vh;
+        height: 100vh;
+        width: 350vw;
+    }
+    .footer-logo{
+        display: flex;
+        align-items: center;
+        gap: 7vh;
+    }
+    .footer-logo p{
+        color: #383838;
+        font-size: 12vh;
+        font-weight: 700;
+    }
+    .footer-links{
+        display: flex;
+        list-style: none;
+        gap: 5vh;
+        color: #252525;
+        font-size: 8vh;
+    }
+    .footer-links a{
+        text-decoration: none;
+        color: grey;
+    }
+    .footer-links li{
+        cursor: pointer;
+    }
+    .footer-social-icon{
+        display: flex;
+        gap: 7vh;
+    }
+    .footer-icons-container{
+        padding: 2vh;
+        padding-bottom: 4vw;
+        background: #fbfbfb;
+        border: 1px solid #ebebeb;
+    }
+    .footer-icons-container img{
+        width: 15vh;
+        height: 28vw;
+    }
+    .footer-copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+        width: 100%;
+        margin-bottom: 30vw;
+        color: #1a1a1a;
+        font-size: 6vh;
+    }
+    .footer-copyright hr{
+        width: 80%;
+        border: none;
+        border-radius: 10vh;
+        height: 0.5vw;
+        background: #c7c7c7;
+    }
+    .footerlogo{
+        width: 30vh;
+        height: 50vw;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 768px)   and (max-width: 1024px) {
+    .footer {
+      gap: 3vw; /* Adjust gap between elements for iPad screens */
+    }
+  
+    .footer-logo p {
+      font-size: 4vh; /* Adjust font size for footer logo text on iPad screens */
+    }
+  
+    .footer-links {
+      gap: 3vh; /* Adjust gap between links for iPad screens */
+      font-size: 2.5vh; /* Adjust font size for links on iPad screens */
+    }
+  
+    .footer-social-icon {
+      gap: 2vh; /* Adjust gap between social icons for iPad screens */
+    }
+  
+    .footer-icons-container {
+      padding: 1vh; /* Adjust padding for icons container on iPad screens */
+      padding-bottom: 3px; /* Adjust bottom padding for icons container on iPad screens */
+    }
+  
+    .footer-copyright {
+      gap: 5vw; /* Adjust gap between elements for iPad screens */
+      font-size: 2.5vh; /* Adjust font size for copyright text on iPad screens */
+      margin-bottom: 2vw; /* Adjust margin bottom for iPad screens */
+    }
+  
+    .footer-copyright hr {
+      width: 60%; /* Adjust width for hr on iPad screens */
+      height: 0.3vh; /* Adjust height for hr on iPad screens */
+      border-radius: 5vh; /* Adjust border radius for hr on iPad screens */
+    }
+  
+    .footerlogo {
+      width: 10vh; /* Adjust width for footer logo on iPad screens */
+      height: auto; /* Maintain aspect ratio for footer logo on iPad screens */
+    }
+  }

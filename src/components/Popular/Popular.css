@@ -1,0 +1,87 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    height: 90vh;
+}
+.popular h1{
+    color: #171717;
+    font-size: 7vh;
+    font-weight: 600;
+}
+.popular hr{
+    width: 30vh;
+    height: .5vh;
+    border-radius: 1vh;
+    background: #252525;  
+}
+.popular-item{
+    margin-top: 5vw;
+    display: flex;
+    gap: 3vh;
+}
+
+
+@media screen and (max-width: 763px) {
+
+.popular{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    height: 210vh;
+    width: 85%;
+}
+.popular h1{
+    color: #171717;
+    font-size: 12vh;
+    font-weight: 600;
+    width: 125vh;
+    position: relative;
+    left: 98vh;
+}
+.popular hr{
+    width:50vh;
+    border-radius: 25vh;
+    background: #252525;  
+    position: relative;
+    left: 80vh;
+    bottom: 1vw;
+}
+.popular-item{
+    margin-top: 5vh;
+   position: relative;
+   left: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 10vh; */
+    row-gap: 30vw;
+    column-gap: 30vh;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .popular {
+      height: 40vh; /* Adjust height for iPad screens */
+      gap: 2vh; /* Adjust gap between items for iPad screens */
+      width: 100%;
+      /* margin-bottom: 0vw; */
+    }
+  
+    .popular h1 {
+      font-size: 6vh; /* Adjust font size for h1 on iPad screens */
+    }
+  
+    .popular hr {
+      width: 20vh; /* Adjust width for hr on iPad screens */
+      height: 0.3vh; /* Adjust height for hr on iPad screens */
+      border-radius: 0.5vh; /* Adjust border radius for hr on iPad screens */
+    }
+  
+    .popular-item {
+      margin-top: 3vw; /* Adjust margin top for items on iPad screens */
+      gap: 2vh; /* Adjust gap between items for iPad screens */
+    }
+  }

@@ -1,0 +1,78 @@
+.item{
+    width: 48vh;
+}
+.item p{
+    margin: 1vh 1vh;
+    margin-left: 8%;
+}
+.item-prices{
+    display: flex;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-price-old{
+    color: #000000;
+    font-size: 8vh;
+    font-weight: 500;
+    
+  
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.item img{
+    width: 50vh;
+    height: 20vw;
+}
+
+
+@media screen and (max-width: 450px) {
+    .item{
+        position: relative;
+        /* right: 50px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .item img{
+        width: 96vh;
+        height: 176vw;
+    }
+    .item p{
+        font-size: 6vh;
+        width:60vh;
+    }
+    .item-price-new{
+        font-size: 8vh;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .item {
+      width: 90%; /* Adjust width for iPad screens */
+      margin: 2vh auto; /* Adjust margins for iPad screens */
+    }
+  
+    .item p {
+      margin: 1vh 1vh; /* Adjust margins for text on iPad screens */
+      margin-left: 5%; /* Adjust left margin for text on iPad screens */
+    }
+  
+    .item img {
+      width: 80%; /* Adjust image width for iPad screens */
+      height: auto; /* Maintain aspect ratio for images on iPad screens */
+    }
+  
+    .item-price-old {
+      font-size: 6vh; /* Adjust font size for prices on iPad screens */
+    }
+    
+    .item:hover {
+      transform: scale(1.03); /* Slight scale adjustment on hover for iPad screens */
+      transition: 0.4s; /* Adjust transition duration for smoother hover effect on iPad screens */
+    }
+  }

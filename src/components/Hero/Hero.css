@@ -1,0 +1,143 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(72, 162, 231), #f1f3f2 60%);
+    display: flex;
+    width: 208.2vh;
+}   
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vh;
+    padding-left: 18vh;
+    line-height: 1.1;
+}
+.hero-left h2{
+    color: #090909;
+    font-size: 4vh;
+    font-weight: 600;
+    position: relative;
+    bottom: 12vh;
+}
+.hero-left p{
+    color: #171717;
+    font-size: 12vh;
+    font-weight: 800;
+    display: block;
+    position: relative;
+    bottom: 12vh;
+   
+}
+
+
+
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    width: 41vh;
+    height: 4vw;
+    border-radius: 7vh;
+    margin-top: 4vh;
+    background: #000000;
+    color: white;
+    font-size: 3.5vh;
+    font-weight: 500;
+    position: relative;
+    bottom: 6vw;
+}
+
+.latestbutton button{
+border: none;
+background: none;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 763px) {
+    .hero{
+        height: 370vw;
+        background: linear-gradient(180deg, rgb(72, 162, 231), #f1f3f2 60%);
+        display: flex;
+        width: 190vh;
+    }
+ 
+     
+    .hero-left h2{
+        color: #090909;
+        font-size: 7vh;
+        font-weight: 600;
+        position: relative;
+        bottom: 35vw;
+    }
+    .hero-left p{
+        color: #171717;
+        font-size: 17vh;
+        font-weight: 800;
+        position: relative;
+        bottom: 25vw;
+    }
+    
+
+    
+
+    .hero-latest-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        width: 67vh;
+        height: 42vw;
+        border-radius: 15vh;
+        margin-top: 25vw;
+        background: #000000;
+        color: white;
+        font-size: 6vh;
+        font-weight: 600;
+        position: relative;
+        bottom: 40vw;
+        right:5vh ; 
+    }
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 768px)and (max-width: 1024px) {
+    .hero {
+      width: 86.1%; /* Adjust width for iPad screens */
+      padding: 5vh; /* Modify padding for iPad screens */
+      display: flex;
+      flex-direction: column; /* Adjust layout for smaller screens */
+    }
+  
+    .hero-left {
+      padding-left: 8vh; /* Adjust padding for smaller screens */
+    }
+  
+    .hero-left h2 {
+      font-size: 3.5vh; /* Adjust font size for h2 on iPad screens */
+      bottom: 6vh; /* Adjust position for smaller screens */
+    }
+  
+    .hero-left p {
+      font-size: 8vh; /* Adjust font size for p on iPad screens */
+      bottom: 6vh; /* Adjust position for smaller screens */
+    }
+  
+    .hero-latest-btn {
+      width: 30vh; /* Adjust button width for iPad screens */
+      height: 8vh; /* Adjust button height for iPad screens */
+      font-size: 3vh; /* Adjust font size for button on iPad screens */
+      bottom: 4vh; /* Adjust position for smaller screens */
+    }
+  }
